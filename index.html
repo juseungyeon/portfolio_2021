@@ -1,0 +1,1365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seungyeon</title>
+
+    <!-- fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/prism.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
+</head>
+<body>
+    <div class="scrollContainer" id="contents">
+        <section id="section1">
+            <div class="particles-wrap">
+                <div id="particles"></div>
+                <div class="background"></div>
+                <svg>
+                    <defs>
+                        <filter id="goo">
+                            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="12" />
+                            <feColorMatrix in="blur" result="colormatrix" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 21 -9" />
+                            <feBlend in="SourceGraphic" in2="colormatrix" />
+                        </filter>
+                    </defs>
+                </svg>
+            </div>
+            
+            <div class="sec1">
+                <header>
+                    <div class="logo"><span>PORTFOLIO</span></div>
+                    <nav>
+                        <ul>
+                            <li><a href="#"><span>Home</span></a></li>
+                            <li><a href="#section2"><span>About</span></a></li>
+                            <li><a href="#section3"><span>Works</span></a></li>
+                            <li><a href="#section6"><span>Contact</span></a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <h1><strong class="split spanSlow">FrontEnd</strong> <em class="split spanFast">Developer</em></h1>
+                <!-- <div class="img move-image"></div> -->
+                <div class="move-image-wrap">
+                    <div class="move-image">
+                        <div class="mimg">
+                            <div class="img"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="name"><span>Seung Yeon</span></div>
+            </div>
+        </section>
+        <!--//section1-->
+        <section id="section2">
+            <div class="sec2">
+                <div class="img"></div>
+                <div class="en">
+                    <p><span>I'm Joo Seungyeon,</span></p>
+                    <p><span>a Front- End Developer</span></p>
+                    <p><span>who always takes a step</span></p>
+                    <p><span>forward in a position to learn.</span></p>
+                    <p><span>Welcome to my site! :)</span></p>
+                </div>
+                <div class="ko">
+                    <p><span>안녕하세요 신입 프론트엔드 개발자 주승연 이라고 합니다.</span></p>
+                    <p><span>항상 배우려는 자세로 한 걸음씩 나아가는 개발자가 되겠습니다.</span></p>
+                    <p><span>제 사이트에 오신 걸 환영합니다!</span></p>
+                </div>
+                <div class="back-txt">
+                    <span>IAMSEUNGYEON</span>
+                    <span>FRONTEND</span>
+                    <span>DEVELOPER</span>
+                </div>
+            </div>
+        </section>
+        <!--//section2-->
+
+        <section id="section3">
+            <div class="sec3">
+				<div class="site-tit">
+					<h2 class="split">CODING SITE</h2>
+					<span class="line"></span>
+					<div class="circle"></div>
+				</div>
+				<!-- //works-title -->
+				<div class="site-list">
+					<ul>
+						<li><a href="#site1">WEBSTANDARD</a></li>
+						<li><a href="#site2">RESPONSIVE</a></li>
+						<li><a href="#site3">MEGABOX SITE</a></li>
+						<li><a href="#site4">LAHAN HOTEL</a></li>
+						<li><a href="#site5">MOVIE APP</a></li>
+					</ul>
+				</div>
+				<div id="site1" class="site-wrap">
+					<div class="top">
+						<div class="left">
+							<div class="box">
+								<h4 class="split">WEBSTANDARD</h4>
+                                <div class="img-wrap">
+                                    <img src="assets/img/webstandard.jpg" alt="webstandard">
+                                </div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="desc">
+								<p><span>웹 표준을 준수한 사이트입니다.</span></p>
+								<p><span>W3C 검사도 완료하였습니다.</span></p>
+								<p><span>모든 사용자가 이용에 불편이 없도록 </span></p>
+								<p><span>대체 텍스트로 웹 접근성을 고려하였습니다. </span></p>
+								<p><span>또한 slick을 이용한 배너와 라이트박스 </span></p>
+								<p><span>생성 플러그인을 사용하여 배너와 이미지에</span></p>
+								<p><span>동적인 부분을 더했습니다.</span></p>
+							</div>
+							<a href="http://jsy0107.dothome.co.kr/web/index.html" class="btn"><span>SITE VIEW</span></a>
+						</div>
+					</div>
+					<div class="editor-warp">
+						<div class="tab-btn">
+							<ul>
+								<li class="active" data-index-number="1"><a href="#">탭 메뉴</a></li>
+								<li data-index-number="2"><a href="#">IR 효과</a></li>
+								<li data-index-number="3"><a href="#">slick.js</a></li>
+								<li data-index-number="4"><a href="#">스킵메뉴</a></li>
+							</ul>
+						</div>
+						<!-- code-editor -->
+						<div class="code-editor">
+							<header id="controls">
+								<div class="native-header">
+									<div class="close"></div>
+									<div class="minimize"></div>
+									<div class="expand"></div>
+								</div>
+								<div class="tabcontrol">
+									<div class="tab active">
+										<div class="box">WEBSTANDARD</div>
+									</div>
+								</div>
+								<div class="controls">
+									<div class="tabgroup">
+										<a id="undo"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+										<a id="redo"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										<a id="repeat"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="address">http://jsy0107.dothome.co.kr/web/index.html</div>
+									<div class="tabgroup">
+										<a id="dot"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</header>
+							<!-- tab_code -->
+							<div class="code-content">
+								<ul class="code-tab">
+									<li class="active">
+										<pre class="line-numbers language-css"><code class="language-js">//탭 메뉴
+var $tap_list = $(".tab_menu");
+
+$tap_list.find("ul ul").hide();
+$tap_list.find("li.active > ul").show();
+
+function tabMenu(e){
+    e.preventDefault();
+	var $this = $(this);
+	$this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").find(">ul").hide();
+}
+$tap_list.find("ul>li>a").click(tabMenu).focus(tabMenu);</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-css">/* IR 효과 */
+/*의미있는 이미지의 대체 텍스트를 제공하는 경우 */
+.ir_pm {
+	display: block;
+	overflow: hidden; 
+	font-size: 0; 
+	line-height: 0; 
+	text-indent: -9999px;
+} 
+/*의미있는 이미지의 대체 텍스트를 이미지가 없어도 대체 텍스트를 보여주고자 할 때 */
+.ir_wa {
+	display: block; 
+	overflow: hidden; 
+	position: relative; 
+	z-index:  -1; 
+	width: 100%; 
+	height: 100%;
+}
+/* 대체 텍스트가 아닌 접근성을 위한 숨김 텍스트를 제공할 때 */
+.ir_so {
+	overflow: hidden;
+	position: absolute; 
+	width: 0; height: 0; 
+	line-height: 0; 
+	text-indent: -9999px;
+}</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-js">//slick 배너
+$('.ban').slick({
+	infinite: true,
+	slidesToShow: 3,  
+	slidesToScroll: 3,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	dots: true,
+});
+                      
+//slick 갤러리
+$(".gallery_img").slick({
+	arrows: false,
+	fade: true,
+	pauseOnHover: true,
+	arrows: false,
+	infinite: true,
+	autoplay: true,
+	autoplaySpeed: 3000,
+	speed: 300,
+	slidesToShow: 1
+});
+$(".play").click(function(){
+	$(".gallery_img").slick("slickPlay");
+});
+$(".pause").click(function(){
+	$(".gallery_img").slick("slickPause");
+});
+$(".prev").click(function(){
+	$(".gallery_img").slick("slickPrev");
+});
+$(".next").click(function(){
+	$(".gallery_img").slick("slickNext");
+});</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-css">/*스킵 메뉴*/
+#skip {position: relative;}
+#skip a {
+	position: absolute; 
+	left: 0px; top:-35px; 
+	border: 1px solid #fff; 
+	color: #fff; background-color: #333; 
+	line-height: 30px; width: 160px; text-align: center;
+}
+#skip a:active,
+#skip a:focus {top:0;}</code></pre>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //웹표준 -->
+                <div id="site2" class="site-wrap">
+					<div class="top">
+						<div class="left">
+							<div class="box">
+								<h4 class="split">RESPONSIVE</h4>
+                                <div class="img-wrap">
+                                    <img src="assets/img/responsive.jpg" alt="webstandard">
+                                </div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="desc">
+								<p><span>해상도에 따라 이미지를 다르게 표현하는</span></p>
+								<p><span>방법과 lightbox.js와 slick.js를 이용한</span></p>
+								<p><span>이미지 슬라이드 등 반응형에 맞게</span></p>
+								<p><span>미디어쿼리를 사용하여 각 해상도 마다</span></p>
+								<p><span>컨텐츠 요소들의 위치가 바뀌게 </span></p>
+								<p><span>반응형 사이트를 완성하였습니다.</span></p>
+							</div>
+							<a href="http://jsy0107.dothome.co.kr/responsive/html5/index.html" class="btn"><span>SITE VIEW</span></a>
+						</div>
+					</div>
+					<div class="editor-warp">
+						<div class="tab-btn">
+							<ul>
+								<li class="active" data-index-number="1"><a href="#">미디어쿼리</a></li>
+								<li data-index-number="2"><a href="#">lightgallery.js</a></li>
+								<li data-index-number="3"><a href="#">이미지 최적화</a></li>
+								<li data-index-number="4"><a href="#">말줄임효과</a></li>
+								<li data-index-number="5"><a href="#">mouse hover</a></li>
+							</ul>
+						</div>
+						<!-- code-editor -->
+						<div class="code-editor">
+							<header id="controls">
+								<div class="native-header">
+									<div class="close"></div>
+									<div class="minimize"></div>
+									<div class="expand"></div>
+								</div>
+								<div class="tabcontrol">
+									<div class="tab active">
+										<div class="box">RESPONSIVE</div>
+									</div>
+								</div>
+								<div class="controls">
+									<div class="tabgroup">
+										<a id="undo"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+										<a id="redo"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										<a id="repeat"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="address">http://jsy0107.dothome.co.kr/responsive/html5/index.html</div>
+									<div class="tabgroup">
+										<a id="dot"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</header>
+							<!-- tab_code -->
+							<div class="code-content">
+								<ul class="code-tab">
+									<li class="active">
+										<pre class="line-numbers language-css"><code class="language-css">/* media query*/
+/* 화면 너비 0 ~ 1220px */
+@media (max-width: 1220px){
+	.container {width: 100%;}
+	.row {padding: 0 15px;}
+	#contents .container {border: 0;}
+	
+	.title .btn {right: 5px;}
+	.square a {width: 24%;}
+	.square a:nth-child(5n) {display: none;}
+}
+/* 화면 너비 0 ~ 1024px */
+@media (max-width: 1024px){
+	.square a {width: 32.3333%;}
+	.square a:nth-child(5) {display: block;}
+}
+/* 화면 너비 0 ~ 960px */
+@media (max-width: 960px){
+	#cont_right {position: static; width: 100%; border-top: 1px solid #dbdbdb;}
+	#cont_center {margin-right: 0; border-right: 0;}
+	.nav > div {float: none; width: 100%;}
+	.nav > div:last-child {width: 100%;}
+	.nav > div li {width: 33.3333%;}
+	.nav > div:last-child li {width: 33.3333%;}
+	.nav > div ol {margin-bottom: 10px;}
+	#cont_right {overflow: hidden;}
+	#cont_right .column {float: left; width: 33.3333%; box-sizing: border-box;}
+	#cont_right .column.col7 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+	#cont_right .column.col8 {border-right: 1px solid #dbdbdb; border-bottom: 0;}
+}
+/* 화면 너비 0 ~ 768px */
+@media (max-width: 768px){
+	#cont_left {float: none; width: 100%;}
+	#cont_center {border-left: 0;}
+}
+/* 화면 너비 0 ~ 600px */
+@media (max-width: 600px){
+	.header {height: auto;}
+	.header .header_tit {display: none;}
+	.header .header_icon {display: none;}
+	.title .btn {display: none;}
+	.nav > div li {width: 50%;}
+	.nav > div:last-child li {width: 50%;}
+	.column.col1 .col_tit {display: none;}
+	.column.col1 .col_desc {display: none;}
+	.column.col1 .menu li a i {display: none;}
+	.column.col1 {padding: 0; border-bottom: 0;}
+	.column.col1 .menu ul {overflow: hidden;}
+	.column.col1 .menu li {
+		float:left; width: 33.3333%; 
+		border-right: 1px solid #dbdbdb; 
+		text-align: center; box-sizing: border-box; 
+	}
+	.column.col1 .menu li:nth-child(3n) {border-right: 0;}
+	.column.col1 .menu li a {color: #fff; text-shadow: 0 0 5px rgba(0,0,0,0.7);}
+	.column.col1 .menu li a :hover {box-shadow: none; background: rgba(36,130,174,0.3);}
+	.column.col2 {background: #fff;}
+	.column.col4 {border-top: 1px solid #dbdbdb;}
+	#cont_right .column {width: 50%;}
+	#cont_right .column.col8 {border-right: 0;}
+	#cont_right .column.col9 {display: none;}
+	.slider figcaption {padding: 10px;}
+	.slider figcaption em {font-size: 18px;}
+	.slider figcaption span {font-size: 14px;}
+	.square a {width: 49%;}
+	.square a:nth-child(5) {display: none;}
+}
+/* 화면 너비 0 ~ 480px */
+@media (max-width: 480px){}
+/* 화면 너비 0 ~ 320px */
+@media (max-width: 320px){
+	.nav > div li {width: 100%;}
+	.nav > div:last-child li {width: 100%;}
+	#cont_right .column {width: 100%;}
+	#cont_right .column.col7 {border-right: 0; border-bottom: 1px solid #dbdbdb;}
+	.square a {width: 100%; margin-right: 0; margin-left: 0;}
+}</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-js">//lightgallery.js
+$(".lightbox").lightGallery({
+	thembnail: true,
+	autoplay: true,
+	pause: 3000,
+	progressBar: true,
+});</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-html">&lt;!-- 이미지 해상도 최적화 --&gt;
+&lt;div class="blog1"&gt;
+	&lt;h5 class="ir_su"&gt;image1&lt;/h5&gt;
+	&lt;figure&gt;
+		&lt;!--
+		&lt;img src="img/blog3_@1.jpg" class="img-normal" alt="normal image"&gt;
+		&lt;img src="img/blog3_@2.jpg" class="img-retina" alt="retina image" width="100%"&gt;
+		-->
+		&lt;img src="img/blog3_@1.jpg"
+		srcset="img/blog3_@1.jpg 1x, img/blog3_@2.jpg 2x, img/blog3_@3.jpg 3x" alt="이미지"&gt;
+		&lt;figcaption&gt;반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다. 
+		반응형 웹 사이트 이미지 글입니다. 반응형 웹 사이트 이미지 글입니다.&lt;/figcaption&gt;
+	&lt;/figure&gt;
+&lt;/div&gt;</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-css">/* 한줄 효과 */
+.notice1 li {
+	position: relative; overflow: hidden; 
+	text-overflow: ellipsis; 
+	white-space: nowrap; 
+	padding-left: 8px;
+}
+/* 두줄 효과 */
+.notice2 li {
+	position: relative;
+	overflow: hidden; text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp:2;
+	padding-left: 8px;
+	margin-bottom: 5px;
+	max-height: 40px; /* ie */
+}</code></pre>
+									</li>
+									<li>
+										<pre class="line-numbers language-css"><code class="language-css">/* mouse hover */
+.square a:hover em {bottom: 0; background: rgba(0,0,0,.57);}
+.square a:nth-child(1):hover img {filter: blur(2px);}
+.square a:nth-child(2):hover img {filter: brightness(50%);}
+.square a:nth-child(3):hover img {filter: contrast(10%);}
+.square a:nth-child(4):hover img {filter: grayscale(100%);}
+.square a:nth-child(5):hover img {filter: hue-rotate(120deg);}
+.square a:nth-child(6):hover img {filter: invert(100%);}
+.square a:nth-child(7):hover img {filter: opacity(10%);}
+.square a:nth-child(8):hover img {filter: saturate(10%);}
+.square a:nth-child(9):hover img {filter: sepia(120%);}
+.square a:nth-child(10):hover img {filter: sepia(120%) hue-rotate(120deg);}
+
+/* 사이드 이펙트1 */
+.side1 {position: relative; perspective: 600px; display: block;}
+.side1 .front {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side1 .back {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%; z-index: -1;
+    transform-style: preserve-3d;
+    color: #fff;
+    background: #4038dc;
+    transform: rotateY(-180deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side1 .back i {
+	position: absolute; 
+	left: 50%; top: 50%; 
+	transform: translate(-50%, -50%); 
+	font-size: 60px;
+}
+.side1:hover .front {transform: rotateY(180deg)}
+.side1:hover .back {transform: rotateY(0deg); z-index: 1;}
+
+/* 사이드 이펙트2 */
+.side2 {position: relative; display: block; perspective: 600px;}
+.side2 .front {
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side2 .back {
+    position: absolute; top: 0; left: 0;
+    width: 100%; height: 100%; z-index: -1;
+    transform-style: preserve-3d;
+    transform: rotateY(-180deg);
+    transition: all 0.5s ease-in-out;
+    backface-visibility: hidden;
+}
+.side2 .front figcaption {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%) translateZ(100px);
+    display: block;
+    text-align: center;
+}
+.side2 .back figcaption {
+    position: absolute; left: 50%; top: 50%;
+    transform: translate(-50%, -50%) translateZ(100px);
+    display: block;
+    text-align: center;
+}
+.side2 figcaption {width: 60%;}
+.side2 figcaption {
+	color: #fff; 
+	font-size: 20px; 
+	font-family: 'Abel', sans-serif; 
+	font-weight: bold; 
+	background: rgba(0,0,0,0.4); 
+	padding: 3px 10px;
+}
+.side2:hover .front {transform: rotateY(180deg);}
+.side2:hover .back {transform: rotateY(0deg); z-index: 1;}
+
+/* 사이드 이펙트3 */
+.side3 {position: relative; overflow: hidden;}
+.side3 figcaption {
+    position: absolute; top: 50%; left: 50%;
+    color: #fff; text-align: center;
+    opacity: 0;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    transform: translate(350%, -50%) rotate(180deg); 
+}
+.side3 figcaption::after {
+    content: '';
+    width: 100px; height: 100px;
+    background: #000; border-radius: 50%;
+    position: absolute; left: 50%; top: 50%; z-index: -1;
+    transform: translate(-50%, -50%)
+}
+.side3 figcaption h3 {font-size: 16px;}
+.side3 figcaption em {display: block; font-weight: bold;}
+.side3 img {display: block; transition: all 0.3s ease;}
+.side3 img:hover {opacity: 0.4;}
+.side3:hover figcaption {
+	transform: translate(-50%, -50%) rotate(0deg); 
+	opacity: 1;
+}</code></pre>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //반응형 -->
+                <div id="site3" class="site-wrap">
+					<div class="top">
+						<div class="left">
+							<div class="box">
+								<h4 class="split">MEGABOX SITE</h4>
+                                <div class="img-wrap">
+                                    <img src="assets/img/megabox.jpg" alt="webstandard">
+                                </div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="desc">
+								<p><span>실제 메가박스 사이트를 리뉴얼한 사이트입니다.</span></p>
+								<p><span>반응형으로 작업하였으며, 해상도별 이미지작업을</span></p>
+								<p><span>진행하였습니다. swiper slider를 이용하여</span></p>
+								<p><span>모바일에서도 쉽게 이미지 슬라이드가</span></p>
+								<p><span>적용될 수 있도록 작업하였습니다</span></p>
+								<p><span>구글의 웹 API를 사용하여 유튜브의 영상이</span></p>
+								<p><span>레이어 팝업으로 나타나도록 작업했습니다.</span></p>
+							</div>
+							<a href="http://jsy0107.dothome.co.kr/mega/index.html" class="btn"><span>SITE VIEW</span></a>
+						</div>
+					</div>
+					<div class="editor-warp">
+						<div class="tab-btn">
+							<ul>
+								<li class="active" data-index-number="1"><a href="#">Youtube API</a></li>
+								<li data-index-number="2"><a href="#">swiper.js</a></li>
+								<li data-index-number="3"><a href="#">hambuger menu</a></li>
+							</ul>
+						</div>
+						<!-- code-editor -->
+						<div class="code-editor">
+							<header id="controls">
+								<div class="native-header">
+									<div class="close"></div>
+									<div class="minimize"></div>
+									<div class="expand"></div>
+								</div>
+								<div class="tabcontrol">
+									<div class="tab active">
+										<div class="box">MEGABOX</div>
+									</div>
+								</div>
+								<div class="controls">
+									<div class="tabgroup">
+										<a id="undo"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+										<a id="redo"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										<a id="repeat"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="address">http://jsy0107.dothome.co.kr/mega/index.html</div>
+									<div class="tabgroup">
+										<a id="dot"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</header>
+							<!-- tab_code -->
+							<div class="code-content">
+								<ul class="code-tab">
+									<li class="active">
+										<pre
+											class="line-numbers language-css"><code class="language-js">//Youtube API
+(function ($) {
+	(function handleTrailer() {
+		// 셀럭터 캐시
+		var $selector = {
+			body: $("body"),
+			overlay: $("#blackout"),
+			modal: $("#trailerModal"),
+			showButton: $("#showTrailer"),
+			hideButton: $("#hideTrailer"),
+		};
+		// 플레이어
+		var player = {
+			obj: null, // 플레이어 오브젝트
+			query: {
+				theme: "dark",
+				color: "white",
+				controls: 1,
+				autoplay: 1,
+				enablejsapi: 1,
+				modestbranding: 0, // YouTube 로고 감춤
+				rel: 0, // 관련 동영상 표시
+				showinfo: 0, // 제목, 업로더 감춤
+				iv_load_policy: 3 // 특수효과 감춤
+			},
+			visible: false
+		};
+		// 보이기, 숨기기 버튼 활성화
+		$selector.showButton.on("click", showPlayer);
+		$selector.hideButton.on("click", hidePlayer);
+		//YouTube API를 이용해 iframe을 생성
+		function setPlayer(id) {
+			player.obj = new YT.Player("trailer", {
+				width: 480,
+				height: 282,
+				videoId: id,
+				playerVars: player.query
+			});
+			// 처음 플레이어 크기 설정
+			resizePlayer();
+			// 리사이즈 화면 회전시 플레이어 크기 다시 설정
+			$(window).on("resize orientationchange", function () {
+				resizePlayer();
+			});
+		}
+		function resizePlayer() {
+			var viewport = {},
+				frame = {},
+				modal = {};
+
+			viewport.width = $(window).width();
+			viewport.height = $(window).height();
+			frame.width = viewport.width;
+			frame.height = frame.width / 1.6; // 16 : 10
+			modal.top = ((viewport.height - frame.height) / 2) + "px";
+			modal.left = "0px";
+			$selector.modal.css(modal);
+			player.obj.setSize(frame.width, frame.height);
+		}
+		// iframe 보이기
+		function showPlayer() {
+			if (!player.obj) {
+				setPlayer($selector.showButton.data("youtube"));
+			}
+			$selector.body.addClass("modal_on");
+			$selector.overlay.show();
+			player.visible = true;
+		};
+		// iframe 감추기
+		function hidePlayer() {
+			player.obj.stopVideo();
+			$selector.overlay.hide();
+			$selector.body.removeClass("modal_on");
+			player.visible = false;
+		};
+	})();
+})(jQuery);</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">//swiper.js
+//배너 이미지 슬라이드
+var mySwiper = new Swiper('.swiper-container', {
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'bullets',
+	},
+	autoplay: {
+			delay: 5000,
+	},
+});
+
+//영화차트 이미지 슬라이드
+var mySwiper = new Swiper('.swiper-container2', {
+	slidesPerView: 4,
+	spaceBetween: 24,
+//  mousewheel: {
+//  nvert: true,
+//  },
+	keyboard: {
+		enabled: true,
+		onlyInViewport: false,
+	},
+	breakpoints: {
+		600: {
+			slidesPerView: 1.4,
+			spaceBetween: 24
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 24
+		},
+		960: {
+			slidesPerView: 3,
+			spaceBetween: 24
+		}
+	}
+});</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-css">/* mobile hambuger menu */
+.ham {
+	display: block; 
+	width: 25px; height: 10px; 
+	background: rgba(0,0,0,0); 
+	padding: 15px 10px 10px 10px;
+}
+.ham span {position: relative; display: block; width: 25px; height: 4px; background: #39106a;}
+.ham span:before {
+	content: '';
+	width: 25px; height: 4px; background: #39106a;
+	position: absolute; left: 0; bottom: -7px;
+}
+.ham span:after {
+	content: '';
+	width: 25px; height: 4px; background: #39106a;
+	position: absolute; left: 0; top: -7px;
+}</code></pre>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //메가박스 -->
+                <div id="site4" class="site-wrap">
+					<div class="top">
+						<div class="left">
+							<div class="box">
+								<h4 class="split">LAHAN HOTEL</h4>
+                                <div class="img-wrap">
+                                    <img src="assets/img/rahanhotel.jpg" alt="rahan">
+                                </div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="desc">
+								<p><span>스크롤 시 디자인이 변경되는 FixHeader제작</span></p>
+								<p><span>스크롤 이벤트 애니메이션(scrolla.js)를 </span></p>
+								<p><span>활용해 각 섹션에 위치할 때 마다 애니메이션이 </span></p>
+								<p><span>작동하도록 제작하였습니다. 또한 애니메이션이 </span></p>
+								<p><span>들어간 이미지 슬라이드(slick.js)를 </span></p>
+								<p><span>활용하였습니다. Open 버튼 클릭 시 나타나는</span></p>
+								<p><span>GNB navBar도 제작하였습니다.</span></p>
+							</div>
+							<a href="http://jsy0107.dothome.co.kr/rahan/index.html" class="btn"><span>SITE VIEW</span></a>
+						</div>
+					</div>
+					<div class="editor-warp">
+						<div class="tab-btn">
+							<ul>
+								<li class="active" data-index-number="1"><a href="#">Fixed header</a></li>
+								<li data-index-number="2"><a href="#">이미지 슬라이드</a></li>
+								<li data-index-number="3"><a href="#">hambuger menu</a></li>
+								<li data-index-number="4"><a href="#">스크롤 이벤트 애니메이션</a></li>
+							</ul>
+						</div>
+						<!-- code-editor -->
+						<div class="code-editor">
+							<header id="controls">
+								<div class="native-header">
+									<div class="close"></div>
+									<div class="minimize"></div>
+									<div class="expand"></div>
+								</div>
+								<div class="tabcontrol">
+									<div class="tab active">
+										<div class="box">LAHAN HOTEL</div>
+									</div>
+								</div>
+								<div class="controls">
+									<div class="tabgroup">
+										<a id="undo"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+										<a id="redo"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										<a id="repeat"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="address">http://jsy0107.dothome.co.kr/rahan/index.html</div>
+									<div class="tabgroup">
+										<a id="dot"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</header>
+							<!-- tab_code -->
+							<div class="code-content">
+								<ul class="code-tab">
+									<li class="active">
+										<pre
+											class="line-numbers language-css"><code class="language-js">// Fixed header
+var scrollTop = 0;
+scrollTop = $(document).scrollTop();
+
+$(window).on('scroll resize', function(){
+    scrollTop = $(document).scrollTop();
+    fixHeader();
+});
+
+function fixHeader() {
+    if(scrollTop > 200) { $('header').addClass('on'); }
+    else { $('header').removeClass('on'); }
+}</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">//slick.js
+$(function(){
+    //slide1
+    $('.visual .slide').slick({
+        arrows: false,  
+        dots: false, 
+        fade: true,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnHover: false,
+        pauseOnFocus: false 
+    });
+
+    //slide2
+    $('.intro_dining .slide2').slick({
+        arrows: false,
+        dots: false, 
+        fade: false,
+        autoplay: true,
+        autoplaySpeed: 4000,
+        pauseOnHover: false,
+        pauseOnFocus: false 
+    });
+});</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">// hambuger menu
+$(function(){
+	$('header .menuOpen').on('click', function(){
+		$('header .menuWrap').addClass('on')
+	});
+	$('.menuWrap .close').on('click', function(){
+		$('.menuWrap').removeClass('on')
+	});
+});</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">//스크롤 애니메이션
+$(function() {
+	$('.animate').scrolla({
+		mobile: true, 
+		once: false 
+	});    
+}); </code></pre>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //라한호텔 -->
+				<div id="site5" class="site-wrap">
+					<div class="top">
+						<div class="left">
+							<div class="box">
+								<h4 class="split">MOVIE APP</h4>
+                                <div class="img-wrap">
+                                    <img src="assets/img/movieApp.jpg" alt="movieApp">
+                                </div>
+							</div>
+						</div>
+						<div class="right">
+							<div class="react"></div>
+							<div class="desc">
+								<p><span>JSX, State, Props,</span></p>
+								<p><span>Class Components</span></p>
+								<p><span>Data Fetching</span></p>
+								<p><span>Routing</span></p>
+								<p><span>github-pages 배포</span></p>
+								<p><span>등을 이용한 리액트 사이트 입니다.</span></p>
+							</div>
+							<a href="https://jusuengyeon.github.io/movie-app/#/" class="btn"><span>SITE VIEW</span></a>
+						</div>
+					</div>
+					<div class="editor-warp">
+						<div class="tab-btn">
+							<ul>
+								<li class="active" data-index-number="1"><a href="#">App.js</a></li>
+								<li data-index-number="2"><a href="#">Home.js</a></li>
+								<li data-index-number="3"><a href="#">About.js</a></li>
+								<li data-index-number="4"><a href="#">Detail.js</a></li>
+								<li data-index-number="5"><a href="#">Movie.js</a></li>
+							</ul>
+						</div>
+						<!-- code-editor -->
+						<div class="code-editor">
+							<header id="controls">
+								<div class="native-header">
+									<div class="close"></div>
+									<div class="minimize"></div>
+									<div class="expand"></div>
+								</div>
+								<div class="tabcontrol">
+									<div class="tab active">
+										<div class="box">movie-app</div>
+									</div>
+								</div>
+								<div class="controls">
+									<div class="tabgroup">
+										<a id="undo"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a>
+										<a id="redo"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										<a id="repeat"><i class="fa fa-repeat" aria-hidden="true"></i></a>
+									</div>
+									<div class="address">https://jusuengyeon.github.io/movie-app/#/</div>
+									<div class="tabgroup">
+										<a id="dot"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></a>
+									</div>
+								</div>
+							</header>
+							<!-- tab_code -->
+							<div class="code-content">
+								<ul class="code-tab">
+									<li class="active">
+										<pre
+											class="line-numbers language-css"><code class="language-js">import React from "react";
+import { HashRouter, Route } from "react-router-dom";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Detail from "./routes/Detail";
+import Navigation from "./components/Navigation";
+import "./App.css";
+
+function App() {
+	return  (
+	&lt;HashRouter&gt;
+		&lt;Navigation /&gt;
+		&lt;Route path="/" exact={true} component={Home} /&gt;
+		&lt;Route path="/about" component={About} /&gt;
+		&lt;Route path="/movie/:id" component={Detail} /&gt;
+	&lt;/HashRouter&gt;
+	);
+}
+
+export default App;</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">import React from "react";
+import axios from "axios";
+import Movie from "../components/Movie";
+import "./Home.css";
+
+class Home extends React.Component{
+	state = {
+	isLoading: true,
+	movie: []
+	}
+	getMovies = async () => {
+	const {
+		data: {
+		data: { movies }
+		}
+	} = await axios.get(
+		"https://yts-proxy.now.sh/list_movies.json?sort_by=rating"
+	);
+	this.setState({ movies, isLoading: false });
+	};
+	componentDidMount() {
+	this.getMovies();
+	}
+
+	render(){
+	const { isLoading, movies } = this.state;
+	return (
+		&lt;section className="container"&gt;
+		{isLoading ? (
+			&lt;div className="loader"&gt;
+			&lt;span className="loader__text"&gt;Loading...&lt;/span&gt;
+			&lt;/div&gt;
+		) : (
+			&lt;div className="movies"&gt;
+			{movies.map(movie => (
+			&lt;Movie
+				key={movie.id}
+				id={movie.id}
+				year={movie.year}
+				title={movie.title}
+				summary={movie.summary}
+				poster={movie.medium_cover_image}
+				genres={movie.genres}
+			/>))}
+			&lt;/div&gt;
+		)}
+		&lt;/section&gt;
+	)
+	}
+}
+
+export default Home;
+</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">import React from "react";
+import "./About.css";
+
+function About(props) {
+	console.log(props);
+	return (
+		&lt;div className="about__container"&gt;
+			&lt;span&gt;
+			“Freedom is the freedom to say that two plus two make four. If that is
+			granted, all else follows.”
+			&lt;/span&gt;
+			&lt;span&gt;− George Orwell, 1984&lt;/span&gt;
+		&lt;/div&gt;
+		);
+}
+
+export default About;</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">import React from "react";
+
+class Detail extends React.Component {
+	componentDidMount() {
+		const { location, history } = this.props;
+		if (location.state === undefined) {
+		history.push("/");
+		}
+	}
+	render() {
+		const { location } = this.props;
+		if (location.state) {
+			return &lt;span&gt;{location.state.title}&lt;/span&gt;;
+		} else {
+			return null;
+		}
+	}
+}
+export default Detail;</code></pre>
+									</li>
+									<li>
+										<pre
+											class="line-numbers language-css"><code class="language-js">import React from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
+import "./Movie.css";
+
+function Movie({ id, year, title, summary, poster, genres }) {
+	return (
+	&lt;div className="movie"&gt;
+		&lt;Link
+		to={{
+			pathname: `/movie/${id}`,
+			state: {
+			year,
+			title,
+			summary,
+			poster,
+			genres
+			}
+		}}
+		&gt;
+		&lt;img src={poster} alt={title} title={title} /&gt;
+		&lt;div className="movie__data">
+			&lt;h3 className="movie__title">{title}&lt;/h3&gt;
+			&lt;h5 className="movie__year">{year}&lt;/h5&gt;
+			&lt;ul className="movie__genres"&gt;
+			{genres.map((genre, index) => (
+				&lt;li key={index} className="genres__genre"&gt;
+				{genre}
+				&lt;/li&gt;
+			))}
+			&lt;/ul&gt;
+			&lt;p className="movie__summary">{summary.slice(0, 180)}...&lt;/p&gt;
+		&lt;/div&gt;
+		&lt;/Link&gt;
+	&lt;/div&gt;
+	);
+}
+
+Movie.propTypes = {
+	id: PropTypes.number.isRequired,
+	year: PropTypes.number.isRequired,
+	title: PropTypes.string.isRequired,
+	summary: PropTypes.string.isRequired,
+	poster: PropTypes.string.isRequired,
+	genres: PropTypes.arrayOf(PropTypes.string).isRequired
+};
+export default Movie;</code></pre>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- //movie app -->
+	        </div>
+        </section>
+        <!--//section3-->
+
+        <section id="section4">
+			<div class="bg-wrap">
+				<div class="bg-txt split">JAVASCRIPT</div>
+			</div>
+			<div class="sec4">
+				<div class="js-wrap">
+					<div class="js">
+						<div class="site">
+							<iframe src="https://jusuengyeon.github.io/to-do-list/"></iframe>
+						</div>
+						<div class="hover">
+							<h4>TO DO LIST</h4>
+							<button class="btn"><a href="https://jusuengyeon.github.io/to-do-list/">site view</a></button>
+						</div>
+					</div>
+				</div>
+				<div class="js-wrap">
+					<div class="js">
+						<div class="site">
+							<iframe src="http://jsy0107.dothome.co.kr/js/tictactoe.html"></iframe>
+						</div>
+						<div class="hover">
+							<h4>tictactoe</h4>
+							<button class="btn"><a href="http://jsy0107.dothome.co.kr/js/tictactoe.html">site view</a></button>
+						</div>
+					</div>
+				</div>
+                <div class="js-wrap">
+					<div class="js">
+						<div class="site">
+							<iframe src="http://jsy0107.dothome.co.kr/js/text-rpg.html"></iframe>
+						</div>
+						<div class="hover">
+							<h4>text-rpg</h4>
+							<button class="btn"><a href="http://jsy0107.dothome.co.kr/js/text-rpg.html">site view</a></button>
+						</div>
+					</div>
+				</div>
+                <div class="js-wrap">
+					<div class="js">
+						<div class="site">
+							<iframe src="http://jsy0107.dothome.co.kr/js/VideoPlayer/index.html"></iframe>
+						</div>
+						<div class="hover">
+							<h4>Video Player</h4>
+							<button class="btn"><a href="http://jsy0107.dothome.co.kr/js/VideoPlayer/index.html">site view</a></button>
+						</div>
+					</div>
+				</div>
+                <div class="js-wrap">
+					<div class="js">
+						<div class="site">
+							<iframe src="http://jsy0107.dothome.co.kr/js/WhackAMole/index.html"></iframe>
+						</div>
+						<div class="hover">
+							<h4>Whack A Mole</h4>
+							<button class="btn"><a href="http://jsy0107.dothome.co.kr/js/WhackAMole/index.html">site view</a></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--//section4-->
+        <section id="section5">
+			<div class="ani">
+				<div class="ani-tit">
+					<h2 class="split">ANIMATION</h2>
+					<span class="line"></span>
+					<div class="circle"></div>
+				</div>
+				<div class="list">
+					<ul class="list-grid">
+						<li class="list-item">
+							<button class="down-btn">
+								<i></i>
+								<i></i>
+							</button>
+						</li>
+						<!-- down-btn -->
+						<li class="list-item">
+							<a href="http://jsy0107.dothome.co.kr/animation/tail.html">
+								<div class="list-img">
+									<div class="list-bg"></div>
+									<div class="list-img-wrap">
+										<iframe src="http://jsy0107.dothome.co.kr/animation/tail.html"></iframe>
+									</div>
+								</div>
+								<div class="list-text">
+									<div class="list-desc">
+										<h4>TAIL ANIMATION</h4>
+									</div>
+									<i></i>
+									<span></span>
+								</div>
+							</a>
+						</li>
+						<!-- ani-1 -->
+						<li class="list-item">
+							<a href="http://jsy0107.dothome.co.kr/animation/dot.html">
+								<div class="list-img">
+									<div class="list-bg"></div>
+									<div class="list-img-wrap">
+										<iframe src="http://jsy0107.dothome.co.kr/animation/dot.html"></iframe>
+									</div>
+								</div>
+								<div class="list-text">
+									<div class="list-desc">
+										<h4>DOT ANIMATION</h4>
+									</div>
+									<i></i>
+									<span></span>
+								</div>
+							</a>
+						</li>
+						<!-- ani-2 -->
+						<li class="list-item">
+							<a href="http://jsy0107.dothome.co.kr/animation/bar.html">
+								<div class="list-img">
+									<div class="list-bg"></div>
+									<div class="list-img-wrap">
+										<iframe src="http://jsy0107.dothome.co.kr/animation/bar.html"></iframe>
+									</div>
+								</div>
+								<div class="list-text">
+									<div class="list-desc">
+										<h4>BAR ANIMATION</h4>
+									</div>
+									<i></i>
+									<span></span>
+								</div>
+							</a>
+						</li>
+						<!-- ani-3 -->
+						<li class="list-item">
+							<a href="http://jsy0107.dothome.co.kr/animation/cube.html">
+								<div class="list-img">
+									<div class="list-bg"></div>
+									<div class="list-img-wrap">
+										<iframe src="http://jsy0107.dothome.co.kr/animation/cube.html"></iframe>
+									</div>
+								</div>
+								<div class="list-text">
+									<div class="list-desc">
+										<h4>CUBE ANIMATION</h4>
+									</div>
+									<i></i>
+									<span></span>
+								</div>
+							</a>
+						</li>
+						<!-- ani-4 -->
+						<li class="list-item">
+							<a href="http://jsy0107.dothome.co.kr/animation/wave.html">
+								<div class="list-img">
+									<div class="list-bg"></div>
+									<div class="list-img-wrap">
+										<iframe src="http://jsy0107.dothome.co.kr/animation/wave.html"></iframe>
+									</div>
+								</div>
+								<div class="list-text">
+									<div class="list-desc">
+										<h4>WAVE ANIMATION</h4>
+									</div>
+									<i></i>
+									<span></span>
+								</div>
+							</a>
+						</li>
+						<!-- ani-5 -->
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!--//section5-->
+
+		<section id="section6">
+			<div class="contact">
+				<div class="circle">
+					<div class="circle-spin">
+						<span></span>
+					</div>
+				</div>
+				<h3><p class="split2">Do You Want</p><p class="split2">WORK With Me?</p></h3>
+				<div class="info">
+					<ul>
+						<li><a href="#"><span>Get In Touch</span></a></li>
+						<li>
+						<div class="tit"><span>Address</span></div>
+						<div class="desc">
+							<span>Jingwan 3-ro, Eunpyeong-gu, Seoul,<br />
+							Republic of Korea</span>
+						</div>
+						</li>
+						<li>
+						<div class="tit"><span>Phone</span></div>
+						<div class="desc">
+							<span>010.9598.3231</span>
+						</div>
+						</li>
+						<li>
+						<div class="tit"><span>Email</span></div>
+						<div class="desc">
+							<span>seungyeonju@gmail.com</span>
+						</div>
+						</li>
+					</ul>
+				</div>
+				<div class="copy">
+					copyright© 2021 Joo seung yeon. wedsite made by me.
+				</div>
+			</div>
+		</section>
+		<!--//section6-->
+    </div>
+    <!--//contents-->
+
+	<script src="http://jsy0107.dothome.co.kr/portfolio/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/prism.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+</html>
