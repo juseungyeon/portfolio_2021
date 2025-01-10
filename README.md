@@ -5,7 +5,7 @@
 
 ➡️ [포트폴리오 바로가기](https://juseungyeon.github.io/portfolio_2021/)
 
-## 기술 스택
+## ⚒️ 기술 스택
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
