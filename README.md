@@ -21,10 +21,10 @@
 │   ├── css/
 │   ├── fonts/
 │   └── img/
-├── js/                    # JavaScript 파일 모음
-└── index.html             # 메인 페이지 HTML
+├── js/           # JavaScript 파일 모음
+└── index.html    # 메인 페이지 HTML
 ```
 
 ## 📸 디자인 작업 과정 (Figma)
-<img width="449" alt="스크린샷 2025-01-10 오후 8 53 57" src="https://github.com/user-attachments/assets/00f0a743-17d1-48e9-bd2b-1312813509c1" />
-<img width="483" alt="스크린샷 2025-01-10 오후 8 54 10" src="https://github.com/user-attachments/assets/3615144e-d528-422b-877e-1b332c0a2a27" />
+<img width="350" alt="스크린샷 2025-01-10 오후 8 53 57" src="https://github.com/user-attachments/assets/00f0a743-17d1-48e9-bd2b-1312813509c1" />
+<img width="350" alt="스크린샷 2025-01-10 오후 8 54 10" src="https://github.com/user-attachments/assets/3615144e-d528-422b-877e-1b332c0a2a27" />
