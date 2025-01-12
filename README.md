@@ -3,8 +3,6 @@
 2021년에 제작한 포트폴리오 페이지 입니다.
 이 프로젝트는 디자인과 개발 모두 직접 기획하고 구현했습니다.
 
-➡️ [포트폴리오 바로가기](https://juseungyeon.github.io/portfolio_2021/)
-
 ## ⚒️ 기술 스택
 
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
